@@ -40,10 +40,6 @@ function App() {
   const handleClickDec = () =>
     setState((p) => (p > 0 ? p - 1 : components.length - 1));
 
-  console.log(components[state].type.name);
-  // console.log(typeof components[state].type.name);
-  console.log(components[state]);
-
   return (
     <div className="App">
       <header className="App-header">
@@ -54,19 +50,8 @@ function App() {
         <p>{components[state].type.name}</p>
       </header>
       {components[state]}
-      {/* <Components01 /> */}
-      {/* <Feedback02 /> */}
     </div>
   );
 }
 
 export default App;
-
-// <a
-// className="App-link"
-// href="https://reactjs.org"
-// target="_blank"
-// rel="noopener noreferrer"
-// >
-// Learn React
-// </a>
