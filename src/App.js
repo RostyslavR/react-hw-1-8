@@ -32,7 +32,7 @@ const components = [
 ];
 
 function App() {
-  const [state, setState] = useState(components.length - 1);
+  const [state, setState] = useState(0);
 
   const handleClickInc = () =>
     setState((p) => (p < components.length - 1 ? p + 1 : 0));
@@ -41,7 +41,8 @@ function App() {
     setState((p) => (p > 0 ? p - 1 : components.length - 1));
 
   console.log(components[state].type.name);
-  console.log(typeof components[state].type.name);
+  // console.log(typeof components[state].type.name);
+  console.log(components[state]);
 
   return (
     <div className="App">
