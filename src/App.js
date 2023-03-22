@@ -13,7 +13,7 @@ import Phonebook02 from "./phonebook02/Phonebook02";
 import Phonebook03 from "./phonebook03/Phonebook03";
 import Phonebook04 from "./phonebook04/Phonebook04";
 import Phonebook06 from "./phonebook06/Phonebook06";
-import Phonebook07 from "./phonebook07/Phonebook07";
+// import Phonebook07 from "./phonebook07/Phonebook07";
 // import Phonebook08 from "./phonebook08/Phonebook08";
 
 const components = [
@@ -27,7 +27,7 @@ const components = [
   <Phonebook03 />,
   <Phonebook04 />,
   <Phonebook06 />,
-  <Phonebook07 />,
+  // <Phonebook07 />,
   // <Phonebook08 />,
 ];
 
