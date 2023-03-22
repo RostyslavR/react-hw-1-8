@@ -7,8 +7,8 @@ import Components01 from "./components01/Components01";
 import Feedback02 from "./feedback02/Feedback02";
 import Feedback04 from "./feedback04/Feedback04";
 import ImageFinder03 from "./imageFinder03/ImageFinder03";
-// import Images04 from "./images04/Images04";
-// import Movies05 from "./movies05/Movies05";
+import Images04 from "./images04/Images04";
+import Movies05 from "./movies05/Movies05";
 // import Phonebook02 from "./phonebook02/Phonebook02";
 // import Phonebook03 from "./phonebook03/Phonebook03";
 // import Phonebook04 from "./phonebook04/Phonebook04";
@@ -21,8 +21,8 @@ const components = [
   <Feedback02 />,
   <Feedback04 />,
   <ImageFinder03 />,
-  // <Images04 />,
-  // <Movies05 />,
+  <Images04 />,
+  <Movies05 />,
   // <Phonebook02 />,
   // <Phonebook03 />,
   // <Phonebook04 />,
