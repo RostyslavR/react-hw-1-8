@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Components01 from "./components01/Components01";
+import Feedback02 from "./feedback02/Feedback02";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <p>React</p>
       </header>
       <Components01 />
+      <Feedback02 />
     </div>
   );
 }
